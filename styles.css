@@ -1,0 +1,134 @@
+@font-face {
+    font-family: 'norse';
+    src: url('/fonts/Norse-Bold.otf');
+  }
+  
+
+  .norse-font{
+    font-family: 'norse', sans-serif;
+  }
+  .big-font{
+    font-size: 75px;
+  }
+  body {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .base {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80vw; 
+    height: 90vh;
+  }
+  
+  .main {
+    background-color: red;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    margin-top: 10vh;
+  }
+  
+  .r-title {
+    width: 30%; 
+    background-image: url(./images/bg-leaf.jpg);
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center; 
+    padding: 20px; 
+  }
+  
+
+  
+  .r-title h1 {
+    color: white;
+    margin: 0;
+    text-align: center;
+  }
+  
+  .r-title img {
+    width: 100px; 
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .l-form {
+    width: 70%; 
+    background-color: #f0f0f0;
+    display: flex;
+    flex-direction: column; 
+    padding: 20px; 
+  }
+  
+  .l-form-top {    
+    margin-bottom: 10px; 
+    border-radius: 5px; 
+    padding: 15px;
+  }
+
+  
+  .l-form-mid{
+    margin-bottom: 10px;
+    border: 1px solid #ccc; 
+    border-radius: 5px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+  }
+
+
+
+
+  .l-form-bot {
+
+    margin-bottom: 10px; 
+
+    border-radius: 5px; 
+    padding: 15px; 
+  }
+  
+
+  .l-form-bot button {
+    background-color: rgb(61, 86, 6);
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    width: 200px;
+    cursor: pointer;
+  }
+
+    button:hover{
+    background-color: rgb(41, 59, 4);
+  }
+
+  a{
+    color: rgb(13, 137, 38);
+  }
+
+
+
+  .input-flex{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+  }
+
+  .input-flex input{
+    width: 200px;
+  }
+
+
+  .input-container{
+    display: flex;
+    gap: 100px;
+  }
